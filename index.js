@@ -49,7 +49,7 @@ function templateCache(options) {
      * HTML to JavaScript
      */
     contents = htmlJsStrLsn(contents);
-console.info(contents);
+
     file.contents = new Buffer(gutil.template(template, {
       url: url,
       contents: contents,

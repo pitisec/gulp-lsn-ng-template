@@ -1,7 +1,7 @@
 {
   "name": "gulp-lsn-ng-templates",
-  "version": "0.0.1",
-  "description": "Build all of your angular templates in just one js file using $templateCache provider and break line on every \\n",
+  "version": "0.0.2",
+  "description": "Build all of your angular templates in just one js file using $templateCache provider and break line on every \\n\nOrginal by victor_queirozg",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
@@ -22,8 +22,7 @@
   ],
   "author": {
     "name": "Piotr Pawelec",
-    "email": "pitisec@gmail.com",
-    "twitter": "victor_queirozg"
+    "email": "pitisec@gmail.com"
   },
   "license": "MIT",
   "bugs": {
